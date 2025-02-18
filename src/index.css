@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-beige: #f5f0eb;
+  --color-soft-pink: #f3e6e3;
+  --color-text: #2c2c2c;
+  --color-accent: #e6a4a4;
+}
+
+body {
+  background-color: var(--color-beige);
+  color: var(--color-text);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #2c2c2c 0%, #4a4a4a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
